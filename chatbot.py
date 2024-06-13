@@ -10,7 +10,7 @@ def respond(user_text):
     elif re.search(r'\bfine\b|\bi am fine\b', user_text):
         return "That's good to hear! How can I help you today?"
     elif re.search(r'\b(what is your name|name)\b', user_text):
-        return "I am a chatbot created to assist you with your queries."
+        return "I am a codsoft chatbot created to assist you with your queries."
     elif re.search(r'\b(bye|goodbye|quit)\b', user_text):
         return "Goodbye! Have a great day!"
     else:
